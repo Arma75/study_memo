@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ggomi.memo.MemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-31T10:00:56.783Z" hostname="headui-MacBookAir.local" time="0.453">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.ggomi.memo.MemoApplicationTests" time="0.453"/>
+  <system-out><![CDATA[19:00:55.323 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ggomi.memo.MemoApplicationTests]: MemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:00:55.406 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ggomi.memo.MemoApplication for test class com.ggomi.memo.MemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.9)
+
+2025-12-31T19:00:55.713+09:00  INFO 82087 --- [memo] [    Test worker] com.ggomi.memo.MemoApplicationTests      : Starting MemoApplicationTests using Java 17.0.15 with PID 82087 (started by head in /Users/head/Desktop/study_memo)
+2025-12-31T19:00:55.714+09:00  INFO 82087 --- [memo] [    Test worker] com.ggomi.memo.MemoApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-12-31T19:00:56.516+09:00  INFO 82087 --- [memo] [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-12-31T19:00:56.772+09:00  INFO 82087 --- [memo] [    Test worker] com.ggomi.memo.MemoApplicationTests      : Started MemoApplicationTests in 1.265 seconds (process running for 1.953)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
